@@ -1,0 +1,327 @@
+<Database>
+
+	<!-- Lip edema -->
+	<GameDBSymptom ID="SYM_OL_LIP_EDEMA">
+		<DescriptionLocID>SYM_OL_LIP_EDEMA_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+
+		<Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+
+		<Treatments>
+			<TreatmentRef>TRT_INTRAVENOUS_BERINERT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_OL_SYM_ICON_005</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_OL_SYM_ICON_006</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- Laryngeal edema -->
+	<GameDBSymptom ID="SYM_OL_LARYNGEAL_EDEMA">
+		<DescriptionLocID>SYM_OL_LARYNGEAL_EDEMA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>High</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<RiskOfCollapseStartHours>1</RiskOfCollapseStartHours>
+		<RiskOfCollapseEndHours>10</RiskOfCollapseEndHours>
+		<CollapseSymptomRef>SYM_RESPIRATORY_FAILURE</CollapseSymptomRef>
+
+		<Examinations>
+			<ExaminationRef>EXM_LARYNGOSCOPY</ExaminationRef>
+		</Examinations>
+
+		<Treatments>
+			<TreatmentRef>TRT_INTRAVENOUS_BERINERT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_OL_SYM_ICON_003</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_OL_SYM_ICON_004</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	
+	<!-- Intestinal edema -->
+	<GameDBSymptom ID="SYM_OL_INTESTINAL_EDEMA">
+	<DescriptionLocID>SYM_OL_INTESTINAL_EDEMA_DESC</DescriptionLocID>
+	<DiscomfortLevel>High</DiscomfortLevel>
+	<PatientComplains>false</PatientComplains>
+	<Hazard>High</Hazard>
+	<PatientMobility>MOBILE</PatientMobility>
+
+	<Examinations>
+		<ExaminationRef>EXM_MRI</ExaminationRef>
+		<ExaminationRef>EXM_CT</ExaminationRef>
+	</Examinations>
+	
+	<Treatments>
+		<TreatmentRef>TRT_INTRAVENOUS_BERINERT</TreatmentRef>
+	</Treatments>
+	
+	<ShameLevel>0</ShameLevel>
+	<IsMainSymptom>false</IsMainSymptom>
+	
+	<IconIndex>1</IconIndex>
+	
+	<CustomIconBigAssetRef>ASSET_DIAG_OL_SYM_ICON_001</CustomIconBigAssetRef>
+	<CustomIconSmallAssetRef>ASSET_DIAG_OL_SYM_ICON_002</CustomIconSmallAssetRef>
+	
+	</GameDBSymptom>
+
+	<!-- Kayser-Fleischer rings -->
+	<GameDBSymptom ID="SYM_OL_KFR">
+		<DescriptionLocID>SYM_OL_KFR_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+
+		<Examinations>
+			<ExaminationRef>EXM_OPHTHALMOSCOPY</ExaminationRef>
+		</Examinations>
+
+		<Treatments>
+			<TreatmentRef>SUR_OL_LIVER_TRANSPLANT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_OL_SYM_ICON_015</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_OL_SYM_ICON_016</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- Splenomegaly -->
+	<GameDBSymptom ID="SYM_OL_SPLENOMEGALY">
+		<DescriptionLocID>SYM_OL_SPLENOMEGALY_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<RiskOfCollapseStartHours>4</RiskOfCollapseStartHours>
+		<RiskOfCollapseEndHours>72</RiskOfCollapseEndHours>
+		<CollapseSymptomRef>SYM_OL_RUP_SPLENOMEGALY</CollapseSymptomRef>
+
+		<Examinations>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+			<ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+		</Examinations>
+
+		<Treatments>
+			<TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_OL_SYM_ICON_009</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_OL_SYM_ICON_010</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	<!-- Splenomegaly Rupture -->
+	<GameDBSymptom ID="SYM_OL_RUP_SPLENOMEGALY">
+		<DescriptionLocID>SYM_OL_RUP_SPLENOMEGALY_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>High</Hazard>
+		<PatientMobility>IMOBILE</PatientMobility>
+		<RiskOfCollapseStartHours>3</RiskOfCollapseStartHours>
+		<RiskOfCollapseEndHours>10</RiskOfCollapseEndHours>
+		<CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+		<Examinations>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+			<ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>SUR_OL_SPLENECTOMY</TreatmentRef>
+		</Treatments>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+		<CustomIconBigAssetRef>ASSET_CRP_SYM_ICON_009</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_CRP_SYM_ICON_010</CustomIconSmallAssetRef>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!-- Hepatomegaly -->
+	<GameDBSymptom ID="SYM_OL_HEPATOMEGALY">
+		<DescriptionLocID>SYM_OL_HEPATOMEGALY_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+
+		<Examinations>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+			<ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+		</Examinations>
+
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_OL_SYM_ICON_007</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_OL_SYM_ICON_008</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- Renal failure -->
+	<GameDBSymptom ID="SYM_OL_RENAL_FAILURE">
+		<DescriptionLocID>SYM_OL_RENAL_FAILURE_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>High</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+
+		<Examinations>
+			<ExaminationRef>EXM_CC_BLOOD_ANALYSIS</ExaminationRef>
+			<ExaminationRef>EXM_BLOOD_TEST_TESTING</ExaminationRef>
+		</Examinations>
+
+		<Treatments>
+			<TreatmentRef>TRT_DIALYSIS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_OL_SYM_ICON_011</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_OL_SYM_ICON_012</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- Pulseless -->
+	<GameDBSymptom ID="SYM_OL_PULSELESS">
+		<DescriptionLocID>SYM_OL_PULSELESS_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+
+		<Treatments>
+			<TreatmentRef>SUR_OL_FASCIOTOMY</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_OL_SYM_ICON_013</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_OL_SYM_ICON_014</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- Kidney Cysts -->
+	<GameDBSymptom ID="SYM_OL_KIDNEY_CYSTS">
+		<DescriptionLocID>SYM_OL_KIDNEY_CYSTS_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+
+		<Examinations>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+			<ExaminationRef>EXM_CT</ExaminationRef>
+			<ExaminationRef>EXM_USG</ExaminationRef>
+		</Examinations>
+
+		<Treatments>
+			<TreatmentRef>SUR_OL_LAPAROSCOPY</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_DIA_ICON_041</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_DIA_ICON_042</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+	
+	<!-- Imminent death-->
+	<GameDBSymptom ID="SYM_OL_DEATH">
+		<DescriptionLocID>SYM_OL_DEATH_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>High</Hazard>
+		<RiskOfCollapseStartHours>1</RiskOfCollapseStartHours>
+		<RiskOfCollapseEndHours>18</RiskOfCollapseEndHours>
+		<CollapseSymptomRef>SYM_COMA</CollapseSymptomRef>
+		<RiskOfDeathStartHours>1</RiskOfDeathStartHours>
+		<RiskOfDeathEndHours>24</RiskOfDeathEndHours>
+		<PatientMobility>INTUBATED</PatientMobility>
+
+		<Examinations>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
+		</Examinations>
+
+		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_MEDIUM</CollapseProcedureRef>
+		<ShameLevel>0</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+
+		<IconIndex>1</IconIndex>
+
+		<CustomIconBigAssetRef>ASSET_DIAG_DIA_ICON_011</CustomIconBigAssetRef>
+		<CustomIconSmallAssetRef>ASSET_DIAG_DIA_ICON_012</CustomIconSmallAssetRef>
+
+	</GameDBSymptom>
+
+	<!-- Necrosis modification -->
+	<GameDBSymptom ID="SYM_NECROSIS">
+		<DescriptionLocID>SYM_NECROSIS_DESCRIPTION</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>High</Hazard>
+		<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+		<RiskOfCollapseEndHours>12</RiskOfCollapseEndHours>
+		<CollapseSymptomRef>SYM_SEPTIC_SHOCK</CollapseSymptomRef>
+		<PatientMobility>MOBILE</PatientMobility>
+		
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		
+		<Treatments>
+			<TreatmentRef>TRT_DEBRIDEMENT</TreatmentRef>
+		</Treatments>
+
+		<CollapseProcedureRef>CONTROL_PROCEDURE_COLLAPSE_LOW</CollapseProcedureRef>
+		<ShameLevel>90</ShameLevel>
+		<IsMainSymptom>false</IsMainSymptom>
+		
+		<IconIndex>2234</IconIndex>
+	</GameDBSymptom>
+	
+</Database>
+

@@ -1,0 +1,19 @@
+<Database>
+	<!-- Department of Diagnostics Mod by Ollyver -->
+    <GameDBStringTable ID="LOC_EN_ADDON_DIAG_EXAMINATIONS_CRP">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Ollyver</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+		<!-- =============================================================== -->
+		<!-- ============ CRP EXPORT Department of Diagnostics ============= -->
+		<!-- =============================================================== -->
+
+</LocalizedStrings>
+</GameDBStringTable>
+</Database>

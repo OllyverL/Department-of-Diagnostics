@@ -1,0 +1,19 @@
+<Database>
+	<GameDBStringTable ID="ADDON_MOD_DIAG">
+	<LanguageCode>en</LanguageCode>
+	<LanguageNameLocalized>English</LanguageNameLocalized>
+	<Contributors>
+	<Name>Ollyver</Name>
+	</Contributors>
+
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      
+	<LocID>ADDON_MOD_DIAG</LocID>                       	
+	<Text>Department of Diagnostics</Text>  
+	</GameDBLocalizedString>
+
+	</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
+

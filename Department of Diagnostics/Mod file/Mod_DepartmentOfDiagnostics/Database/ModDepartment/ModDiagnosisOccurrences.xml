@@ -1,0 +1,27 @@
+<Database>
+	<!-- Department of Diagnostics Mod by Ollyver 
+	-->
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_OL_COMMON">
+        <OccurrenceRate>100</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_OL_UNCOMMON">
+        <OccurrenceRate>50</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_OL_UNLIKELY">
+        <OccurrenceRate>33</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_OL_RARE">
+        <OccurrenceRate>25</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_OL_VERYRARE">
+        <OccurrenceRate>15</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_OL_ULTRARARE">
+		<OccurrenceRate>10</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+</Database>
